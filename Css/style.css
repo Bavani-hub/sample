@@ -1,0 +1,951 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --primary-color:#98d5ae;
+    --secondary-color:#c4e1c1;
+    --tertiary-color:#98d5ae47;
+    --text-h1: #1e0e62;
+    --text-h2:#4e4b7f;
+    --text-body:#5c5c5c;
+    --size-h1:40px;
+    --size-h2:24px;
+    --size-body:18px;
+    --text-regular:regular;
+    --text-medium:medium;
+    --text-bold:bold;
+    --ffamily-one:"Playfair Display", serif;
+    --ffamily-two:"Lato", sans-serif;
+}
+/* nav start */
+
+.menu li a {
+    text-decoration: none;
+}
+.menu li a.active {
+    color: var(--primary-color);
+}
+p {
+    font-family: "Lato", sans-serif;
+    color: #4E4B7F;
+
+}
+.navbar .wrapper{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+button {
+    background-color: rgb(152, 213, 174);
+    color: #1e0462;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    gap: 50px;
+    align-items: end;
+
+}
+
+.navbar {
+    display: flex;
+flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+.menu_btn{
+    display: none;
+}
+#menu{
+    display:none;
+}
+/* nav end */
+
+/* Footer start */
+#footer{
+    background-color: var(--primary-color);
+    height:auto;
+ padding-top: 20px;  
+   width: 100%;
+}
+.footersection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    gap: 100px;
+    align-items: baseline;
+}
+.footquick ul a{
+    text-decoration: none;
+    color: var(--text-h2);
+}
+.footquick ul{
+    width: 100px;
+}
+.footquick{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    align-items:start ;
+text-align: left;
+}
+.footservice{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:start ;
+    text-align: left;
+}
+.footservice ul{
+    width: 100px;
+
+}
+.footservice ul a{
+    text-decoration: none;
+    color: var(--text-h2);
+
+}
+.foothelp ul a{
+    text-decoration: none;
+    color: var(--text-h2);
+}
+.foothelp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:start ;
+    align-items:start ;
+    text-align: left;
+    
+}
+.footgetintouch{
+    display: flex;
+    flex-direction: column;
+gap: 10px;
+align-items:start ;
+}
+.footstaysubscribe{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: space-evenly;
+    align-content: left;
+    color: var(--text-h2);
+    gap: 10px;
+}
+.footservice ul a{
+   text-decoration: none;
+}
+.footservice h4{
+    text-align: center;
+}
+.footservice ul{
+    width: 150px;
+    align-items: center;
+}
+.foothelp ul{
+    width: 100px;
+    align-items: center;
+}
+.foothelp h4{
+    text-align: center;
+}
+.foothelp ul a{
+    text-decoration: none;
+}
+.footgetintouch{
+    /* padding: 10px; */
+}
+.address i{
+    font-size: 20px;
+}
+.address{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+}
+.address p{
+    width: 200px;
+    color: var(--text-h2);
+}
+.mail i{
+    font-size: 20px;
+}
+.mail{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+.mail p{
+    width: 200px;
+    color: var(--text-h2);
+    align-items: flex-start;
+}
+.Phone i{
+    font-size: 20px;
+}
+.Phone{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+}
+.Phone p{
+    width: 200px;
+    color: var(--text-h2);
+}
+.staytunnedappicon i{
+width: 5px;
+gap: 30px;
+padding: 10px;
+display: flex;
+flex-direction: row;
+font-size: 20px;
+}
+.footstaytuned{
+    display: flex;
+    flex-direction:column ;
+    align-content: flex-start;
+gap: 10px;
+}
+.staytunnedappicon{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.footstaytuned h4{
+    align-items:start ;
+    text-align: left;
+}
+.footbuttonone{
+    background-color: white;
+    color: var(--text-body);
+    width: 200px;
+    height: auto;
+}
+.footbuttontwo{
+    background-color: var(--text-h1);
+    color: white;
+    width: 200px;
+    height: auto;
+}
+.footsubscribe h4{
+    align-items:start ;
+    text-align: left;
+}
+.footsubscribe{
+    display: flex;
+    flex-direction:column ;
+    align-content: flex-start;
+gap: 10px;
+}
+.footerbutton{
+    display: flex;
+    flex-direction:column ;
+    align-items: flex-start;
+justify-content: space-between;
+gap: 10px;
+}
+.footerall{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footpara p{
+    color: var(--text-h2);
+    text-align: center;
+    padding: 10px;
+}
+/* Footer end */
+@media (min-width: 375px) and (max-width: 768px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 15px 20px;
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        display: none;
+    }
+
+    #menu:checked ~ .menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu_btn {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        color: #1e0462;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .menu li a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    button {
+        width: 50%;
+        text-align: center;
+    }
+    #footer {
+        background-color: var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+        width: 100%;
+    }
+    
+    .footersection {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footersection h4 {
+        color: var(--text-h2);
+        margin-bottom: 10px;
+    }
+    
+    .footquick,
+    .footservice,
+    .foothelp,
+    .footgetintouch,
+    .footstaysubscribe {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .footquick ul,
+    .footservice ul,
+    .foothelp ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footquick ul a,
+    .footservice ul a,
+    .foothelp ul a {
+        text-decoration: none;
+        color: var(--text-h2);
+        font-size: 0.95rem;
+    }
+    
+    .address,
+    .mail,
+    .Phone {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        justify-content: center;
+    }
+    
+    .address p,
+    .mail p,
+    .Phone p {
+        color: var(--text-h2);
+        font-size: 0.9rem;
+        width: 200px;
+    }
+    
+    .staytunnedappicon {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .staytunnedappicon i {
+        font-size: 18px;
+        padding: 8px;
+        color: var(--text-h2);
+    }
+    
+    .footsubscribe h4 {
+        margin-top: 10px;
+    }
+    
+    .footerbutton {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    .footbuttonone,
+    .footbuttontwo {
+        width: 250px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        font-size: 0.95rem;
+    }
+    
+    .footbuttonone {
+        background-color: #fff;
+        color: var(--text-body);
+    }
+    
+    .footbuttontwo {
+        background-color: var(--text-h1);
+        color: #fff;
+    }
+    
+    .footpara p {
+        color: var(--text-h2);
+        font-size: 0.75rem;
+        text-align: center;
+        padding: 10px;
+        line-height: 1.4;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* nav start */
+
+.menu li a {
+    text-decoration: none;
+    padding: 30px;
+}
+.menu li a.active {
+    color: var(--primary-color);
+}
+p {
+    font-family: "Lato", sans-serif;
+    color: #4E4B7F;
+
+}
+
+nav{
+    display: flex;
+}
+button {
+    background-color: rgb(152, 213, 174);
+    color: #1e0462;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    align-items:center;
+    margin: 0;
+    padding: 0;
+}
+.menu_btn{
+    display: none;
+}
+#menu{
+    display: none;
+}
+.navbar{
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    padding: 20px;
+}
+    /* Footer start */
+#footer{
+    background-color: var(--primary-color);
+    height:auto;
+ padding-top: 20px;  
+   width: 100%;
+   padding: 80px;
+}
+.footersection{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 100px;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.footquick ul a{
+    text-decoration: none;
+    color: var(--text-h2);
+}
+.footquick ul{
+    width: 100px;
+}
+.footquick{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    align-items:start ;
+text-align: left;
+}
+.footservice{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:start ;
+    text-align: left;
+}
+.footservice ul{
+    width: 100px;
+
+}
+.footservice ul a{
+    text-decoration: none;
+    color: var(--text-h2);
+
+}
+.foothelp ul a{
+    text-decoration: none;
+    color: var(--text-h2);
+}
+.foothelp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:start ;
+    align-items:start ;
+    text-align: left;
+    
+}
+.footgetintouch{
+    display: flex;
+    flex-direction: column;
+gap: 10px;
+align-items:start ;
+}
+.footstaysubscribe{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: space-evenly;
+    align-content: left;
+    color: var(--text-h2);
+    gap: 10px;
+}
+.footservice ul a{
+   text-decoration: none;
+}
+.footservice h4{
+    text-align: center;
+}
+.footservice ul{
+    width: 150px;
+    align-items: center;
+}
+.foothelp ul{
+    width: 100px;
+    align-items: center;
+}
+.foothelp h4{
+    text-align: center;
+}
+.foothelp ul a{
+    text-decoration: none;
+}
+.footgetintouch{
+    /* padding: 10px; */
+}
+.address i{
+    font-size: 20px;
+}
+.address{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+}
+.address p{
+    width: 200px;
+    color: var(--text-h2);
+}
+.mail i{
+    font-size: 20px;
+}
+.mail{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+.mail p{
+    width: 200px;
+    color: var(--text-h2);
+    align-items: flex-start;
+}
+.Phone i{
+    font-size: 20px;
+}
+.Phone{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+}
+.Phone p{
+    width: 200px;
+    color: var(--text-h2);
+}
+.staytunnedappicon i{
+width: 5px;
+gap: 30px;
+padding: 10px;
+display: flex;
+flex-direction: row;
+font-size: 20px;
+}
+.footstaytuned{
+    display: flex;
+    flex-direction:column ;
+    align-content: flex-start;
+gap: 10px;
+}
+.staytunnedappicon{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.footstaytuned h4{
+    align-items:start ;
+    text-align: left;
+}
+.footbuttonone{
+    background-color: white;
+    color: var(--text-body);
+    width: 200px;
+    height: auto;
+}
+.footbuttontwo{
+    background-color: var(--text-h1);
+    color: white;
+    width: 200px;
+    height: auto;
+}
+.footsubscribe h4{
+    align-items:start ;
+    text-align: left;
+}
+.footsubscribe{
+    display: flex;
+    flex-direction:column ;
+    align-content: flex-start;
+gap: 10px;
+}
+.footerbutton{
+    display: flex;
+    flex-direction:column ;
+    align-items: flex-start;
+justify-content: space-between;
+gap: 10px;
+}
+.footerall{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footpara p{
+    color: var(--text-h2);
+    text-align: center;
+    padding: 10px;
+}
+/* Footer end */
+}
+@media (min-width: 1025px) and (max-width: 1440px){
+    /* nav start */
+
+.menu li a {
+    text-decoration: none;
+}
+.menu li a.active {
+    color: var(--primary-color);
+}
+p {
+    font-family: "Lato", sans-serif;
+    color: #4E4B7F;
+
+}
+
+button {
+    background-color: rgb(152, 213, 174);
+    color: #1e0462;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    align-items: end;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+.menu_btn{
+    display: none;
+}
+#menu{
+    display:none;
+}
+/* nav end */
+
+/* Footer start */
+#footer{
+    background-color: var(--primary-color);
+    height:auto;
+ padding-top: 20px;  
+   width: 100%;
+}
+.footersection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    gap: 100px;
+    align-items: baseline;
+}
+.footquick ul a{
+    text-decoration: none;
+    color: var(--text-h2);
+}
+.footquick ul{
+    width: 100px;
+}
+.footquick{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    align-items:start ;
+text-align: left;
+}
+.footservice{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:start ;
+    text-align: left;
+}
+.footservice ul{
+    width: 100px;
+
+}
+.footservice ul a{
+    text-decoration: none;
+    color: var(--text-h2);
+
+}
+.foothelp ul a{
+    text-decoration: none;
+    color: var(--text-h2);
+}
+.foothelp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:start ;
+    align-items:start ;
+    text-align: left;
+    
+}
+.footgetintouch{
+    display: flex;
+    flex-direction: column;
+gap: 10px;
+align-items:start ;
+}
+.footstaysubscribe{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: space-evenly;
+    align-content: left;
+    color: var(--text-h2);
+    gap: 10px;
+}
+.footservice ul a{
+   text-decoration: none;
+}
+.footservice h4{
+    text-align: center;
+}
+.footservice ul{
+    width: 150px;
+    align-items: center;
+}
+.foothelp ul{
+    width: 100px;
+    align-items: center;
+}
+.foothelp h4{
+    text-align: center;
+}
+.foothelp ul a{
+    text-decoration: none;
+}
+.footgetintouch{
+    /* padding: 10px; */
+}
+.address i{
+    font-size: 20px;
+}
+.address{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+}
+.address p{
+    width: 200px;
+    color: var(--text-h2);
+}
+.mail i{
+    font-size: 20px;
+}
+.mail{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+.mail p{
+    width: 200px;
+    color: var(--text-h2);
+    align-items: flex-start;
+}
+.Phone i{
+    font-size: 20px;
+}
+.Phone{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+}
+.Phone p{
+    width: 200px;
+    color: var(--text-h2);
+}
+.staytunnedappicon i{
+width: 5px;
+gap: 30px;
+padding: 10px;
+display: flex;
+flex-direction: row;
+font-size: 20px;
+}
+.footstaytuned{
+    display: flex;
+    flex-direction:column ;
+    align-content: flex-start;
+gap: 10px;
+}
+.staytunnedappicon{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.footstaytuned h4{
+    align-items:start ;
+    text-align: left;
+}
+.footbuttonone{
+    background-color: white;
+    color: var(--text-body);
+    width: 200px;
+    height: auto;
+}
+.footbuttontwo{
+    background-color: var(--text-h1);
+    color: white;
+    width: 200px;
+    height: auto;
+}
+.footsubscribe h4{
+    align-items:start ;
+    text-align: left;
+}
+.footsubscribe{
+    display: flex;
+    flex-direction:column ;
+    align-content: flex-start;
+gap: 10px;
+}
+.footerbutton{
+    display: flex;
+    flex-direction:column ;
+    align-items: flex-start;
+justify-content: space-between;
+gap: 10px;
+}
+.footerall{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footpara p{
+    color: var(--text-h2);
+    text-align: center;
+    padding: 10px;
+}
+/* Footer end */
+}

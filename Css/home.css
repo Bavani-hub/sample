@@ -1,0 +1,2212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 1320px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height: 100vh;
+}
+h1 {
+    font-family: var(--ffamily-one);
+    color: var(--text-h1);
+    text-align: center;
+}
+h2{
+    color: var(--text-h2);
+}
+h4{
+    color: var(--text-h2); 
+}
+/* 
+.banneronetext h1 {
+    font-family: var(--ffamily-one);
+color: var(--text-h1);
+text-align: center;
+} */
+
+#banner .bannerone{
+    background: url(../Images/banner1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banneronetext{
+    display: flex;
+   flex-direction: column;
+justify-content: space-between;
+text-align: center;
+    gap: 30px;
+    align-items: center;
+}
+
+/* .bannertwo {
+    background: url(../Asset/Images/banner\ 2.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+/* .bannerothree {
+    background: url(../Asset/Images/banner\ 3.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+.banneronetext h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.banneronetext p {
+    color: white;
+    font-size: 1.5rem;
+}
+/* derseve section start */
+#deserve{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#deserve .deservesection {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+}
+#deserve h1{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom:40px ;
+}
+#deserve .deservesection .deserveA {
+    font-family: var(--ffamily-two);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 70px;
+}
+#deserve .deservesection .deserveB {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 70px;
+}
+
+i {
+    color: var(--text-h1);
+    font-size: 30px;
+}
+
+.deserveone {
+    width: 400px;
+    height: 180px;
+    background-color: var(--tertiary-color);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+
+}
+
+
+.deservetwo {
+    width: 400px;
+    height: 180px;
+    background-color: var(--tertiary-color);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.deservethree {
+    width: 400px;
+    height: 180px;
+    background-color: var(--tertiary-color);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.deservefour {
+    width: 400px;
+    height: 180px;
+    background-color: var(--tertiary-color);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.deservefive {
+    width: 400px;
+    height: 180px;
+    background-color: var(--tertiary-color);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.deservesix {
+    width: 400px;
+    height: 180px;
+    background-color: var(--tertiary-color);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+
+/* deserver section end */
+
+/* risksection start */
+.reduceimg img {
+    width: 700px; 
+}
+.riskboxsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+}
+#risksection .riskbox{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+}
+#risksection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.riskbox{
+    display: flex;
+    width: 488px;
+    height: auto;
+    border: 2px dashed var(--text-h1);
+    border-radius: 10px;
+    padding: 10px;
+}
+.riskboxes{
+    width: 200px;
+    height: 130px;
+background-color: var(--tertiary-color);
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: center;
+border-radius: 10px;
+padding: 10px;
+gap: 30px;
+}
+.riskboxes p{
+    color: var(--text-h1);
+    font-size: 1rem;  
+}
+.riskbox h3{
+    font-size: 1.5rem;
+}
+.riskboxA{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    column-gap: 20px;
+    text-align: center;
+}
+.riskboxB{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    column-gap: 20px;
+    text-align: center;
+}
+/* risksection end */
+
+/* relaxtherapies start */
+#relaxtherapies{
+    width: 100%;
+    height: auto;
+    background-image: url(../Images/therapies\ bg.jpg);
+}
+.relaxone img{
+    width: 600px;
+    height: auto;
+}
+.relaxone{
+display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+.relaxonetext{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    align-items: center;
+}
+.relaxtwo img{
+    width: 600px;
+    height: auto;
+}
+.relaxtwo{
+display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.relaxtwotext{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.relaxthree img{
+    width: 600px;
+    height: auto;
+}
+.relaxthree{
+display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.relaxthreetext{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    align-items: center;
+}
+.relaxfour img{
+    width: 600px;
+    height: auto;
+}
+.relaxfour{
+display: flex;
+
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.relaxfourtext{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    align-items: center;
+}
+/* relaxend */
+/* safehand */
+
+
+#safehand {
+    background-color:var(--primary-color);
+    width: 100%;
+    height: 500px;
+}
+.safehandsection  img{
+    width: 400px;
+    height: auto;
+}
+.safehandsection{
+    display: flex;
+    gap: 250px;
+    padding: 40px;
+    justify-content: center;
+}
+.safehandsection h1{
+    text-align: left;
+    color:var(--text-h1);
+}
+.safehandtextbox p{
+    color:var(--text-h1);
+   background-color: rgba(255, 255, 255, 0.432);
+   width: 50%;
+   height: auto;
+   padding: 10px;
+   border-radius: 10px;
+}
+.safehandtext{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.safehandtext p{
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    line-height: 25px;
+}
+.safehandboxtext{
+    display: flex;
+flex-direction: column;
+gap: 20px;
+}
+/* safehand end */
+/* getsection */
+.contentmain p{
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+.contentmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px   ;
+}
+.getsection{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 100px;
+}
+.getsection img{
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.getsectiononetext h4{
+    font-size: 1.4rem;
+}
+.getsectiontwotext h4{
+    font-size: 1.4rem;
+}
+.getsectiononetext p{
+font-style: normal;
+}
+.getsectiononetext{
+        width: 200px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+.getsectiontwotext{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+gap: 20px;
+}
+.getsectionone{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.getsectiontwo{
+    display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.getsectionone{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.getsectionthree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 40px; */
+    padding: 30px;
+    gap: 50px;
+}
+.getsectionthree p{
+    width: 25%;
+    text-align: center;
+}
+/* getsection end */
+/* acrosstheworld */
+#acrosstheworld .acrossbanner{
+    background-image: url(../Images/acrossthe\ world.jpg);
+    height: 70vh;
+    width: auto;
+padding: 30px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+.acrossbanneronetext h1{
+   color: white;
+   padding: 10px;
+   gap: 10px;
+   letter-spacing: 0.2rem;
+}
+.acrossbanneronetext p{
+    color: white;
+    padding: 10px;
+   gap: 10px;
+ }
+ .acrossdownload img{
+    width: 100px;
+    gap: 40px;
+    padding: 20px;
+ }
+ .acrossbanneronetext{
+    padding: 30px;
+    gap: 10px;
+ }
+/* acrosstheworld end */
+
+/* cusotmer review */
+#customer-review{
+   display: flex;
+   flex-direction: column;
+}
+.review-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.review-section img{
+    width: 500px;
+    height: auto;
+}
+.reviewcontent img{
+    width: 700px;
+    height: 300px;
+    position:absolute;
+    z-index:1;
+}
+.reviewcontent p{
+display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 45px;
+    width: 600px;
+    z-index: 2;
+    position: relative;
+    line-height:30px;
+}
+
+.reviewers img{
+width: 50px;
+}
+.reviewercomment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 40px;
+}
+.reviewers .two{
+    width: 100px;
+}
+.review-content .review-box-img {
+    position: relative;
+    width: 40px;
+    height: auto;
+    z-index: 1;
+  }
+/* cusotmer review end */
+/* gettheapp */
+#Gettheapp .Gettheappbanner{
+    background-image: url(../Images/mockup.jpg);
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+
+.form {
+    display: flex;
+    align-items: left;
+    gap: 50px;
+    width: 250px;
+    height: auto;
+    padding: 0px;
+    padding-bottom: 15px;
+
+}
+.form-container {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+padding: 5px;
+width: 300px;
+height: 50px;
+  }
+  .flag {
+    display: flex;
+    align-items: center;
+    padding:5px;
+    font-weight: bold;
+    gap: 5px;
+  }
+  .mobile-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 180px;
+  }
+  .share-button{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 150px;
+  }
+.Gettheappbannertext p{
+    color: white;
+}
+.Gettheappbannertext h1{
+    color: white;
+    text-align: left;
+}
+.Gettheappbannertext{
+    display: flex;
+    flex-direction: column; 
+justify-content: space-between;  
+gap: 20px;
+padding: 50px;
+}
+.appdownload img{
+    align-items: left;
+    width:100px;
+    gap: 0px;
+    padding: 0px;
+}
+.flag p{
+    color: rgb(0, 0, 0);
+}
+/* gettheapp end */
+@media (min-width: 375px) and (max-width: 768px)
+ {
+
+    :root{
+        --primary-color:#98d5ae;
+        --secondary-color:#c4e1c1;
+        --tertiary-color:#98d5ae47;
+        --text-h1: #1e0e62;
+        --text-h2:#4e4b7f;
+        --text-body:#5c5c5c;
+        --size-h1:24px;
+        --size-h2:20px;
+        --size-h3:18px;
+        --size-body:14px;
+        --text-regular:regular;
+        --text-medium:medium;
+        --text-bold:bold;
+        --ffamily-one:"Playfair Display", serif;
+        --ffamily-two:"Lato", sans-serif;
+    }
+    .wrapper {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    #banner {
+        width: 100%;
+        height: auto; 
+        padding: 60px 20px;
+        background-position: top;
+    }
+
+    .banneronetext {
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .banneronetext h1 {
+        font-size:var(--size-h2);
+        line-height: 1.4;
+    }
+
+    .banneronetext p {
+        font-size:var(--size-h3);
+    }
+
+    .banneronetext button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+   
+        #deserve {
+            align-items: center;
+            width: 100vw;
+         height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            padding: 20px;
+        }
+    
+        #deserve h1 {
+            font-size: 1.5rem;
+            padding: 20px;
+        }
+    
+        .deservesection {
+            height:auto;
+            width: 100%;
+            display: flex;
+            gap: 10px;
+padding-top:20px;
+        }
+    
+        .deserveA,
+        .deserveB {
+            /* height: 100vh; */
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .deserveone,
+    .deservetwo,
+    .deservethree,
+    .deservefour,
+    .deservefive,
+    .deservesix {
+        width: 100%;       
+
+        height: auto;
+
+        display: flex;
+        justify-content: space-evenly;
+        gap:5px;
+        box-sizing: border-box;
+    }
+    
+        i {
+            font-size: 16px;
+        }
+    
+        .deservesection h4 { 
+           font-size: var(--text-h2);
+        }
+    
+        .deservesection p {
+font-size: var(--text-body);
+        }
+    
+        
+            .riskboxsection {
+                flex-direction: column;
+                gap: 30px;
+            }
+        
+            .reduceimg img {
+                width: 90vw;
+                height: auto;
+                border-radius: 10px;
+                display: block;
+                padding: 20px;
+            }
+        
+            .riskbox {
+                width: 80vw;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;
+                gap: 10px;
+                padding: 15px;
+            }
+        
+            .riskboxA,
+            .riskboxB {
+                flex-direction: column;
+                padding: 0;
+                gap: 10px;
+
+            }
+        
+            .riskboxes {
+                width: 200px;
+                height: auto;
+                padding: 15px;
+                gap: 15px;
+
+            }
+        
+            .riskboxes p {
+
+                font-size: var(--text-body);
+                text-align: center;
+            }
+        
+            .riskbox h3 {
+            font-size: var(--size-h3);
+            }
+        
+            #risksection {
+                height: auto;
+                padding: 20px;
+            }
+            #relaxtherapies {
+                height: auto;
+                padding: 20px;
+            }
+        
+            .relaxone,
+            .relaxthree{
+                flex-direction: column;
+                gap: 20px;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .relaxtwo,
+            .relaxfour{
+                flex-direction: column-reverse;
+                gap: 20px;
+                padding: 20px;
+                text-align: center;
+
+            }
+            .relaxone img,
+            .relaxtwo img,
+            .relaxthree img,
+            .relaxfour img {
+                width: 90vw;
+                height: auto;
+                border-radius: 10px;
+            }
+        
+            .relaxonetext,
+            .relaxtwotext,
+            .relaxthreetext,
+            .relaxfourtext {
+                padding: 10px;
+                gap: 15px;
+            }
+        
+            .relaxonetext h2,
+            .relaxtwotext h2,
+            .relaxthreetext h2,
+            .relaxfourtext h2 {
+                font-size: var(--size-h2);
+            }
+        
+            .relaxonetext p,
+            .relaxtwotext p,
+            .relaxthreetext p,
+            .relaxfourtext p {
+                font-size:var(--text-body);
+            }
+        
+            .relaxonetext button,
+            .relaxtwotext button,
+            .relaxthreetext button,
+            .relaxfourtext button {
+                font-size: 0.9rem;
+                padding: 10px 20px;
+            }
+            #safehand {
+                height: auto;
+                padding: 20px 10px;
+                padding: 20px;
+                width: 100%;
+            }
+        
+            .safehandsection {
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+                padding: 20px;
+            }
+        
+            .safehandsection img {
+                width: 90vw;
+                height: auto;
+                border-radius: 10px;
+            }
+        
+            .safehandtext {
+                align-items: flex-start;
+                text-align: left   ;
+                width: 100%;
+                padding: 0 10px;
+            }
+        
+            .safehandtext h1 {
+                font-size: var(--size-h1);
+            }
+        
+            .safehandtext p {
+                width: 100%;
+                font-size: var(--text-body);
+                line-height: 24px;
+            }
+        
+            .safehandboxtext {
+                align-items: flex-start;
+                width: 80%;
+            }
+        
+            .safehandtextbox p {
+                width: 100%;
+                font-size:var(--text-body);
+                padding: 5px;
+            }
+            .contentmain p {
+                width: 90%;
+                text-align: center;
+                font-size: var(--text-body);
+                line-height: 1.5;
+            }
+        
+            .getsection {
+                flex-direction: column;
+                gap: 40px;
+                align-items: center;
+                padding: 20px 10px;
+            }
+        
+            .getsection img {
+                width: 80vw;
+                height: auto;
+            }
+        
+            .getsectionone, .getsectiontwo {
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+            }
+        
+            .getsectiononetext, .getsectiontwotext {
+                width: 100%;
+                max-width: 300px;
+                text-align: center;
+            }
+            .getsectiononetext i, .getsectiontwotext i{
+                font-size: 1.7rem;
+            }
+            .getsectiononetext h4,
+            .getsectiontwotext h4 {
+                font-size: 1.2rem;
+            }
+        
+            .getsectionthree {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+                padding: 20px;
+            }
+        
+            .getsectionthree p {
+                font-size: var(--text-body);
+                width:100%;
+            }
+        
+            .getsectionthree button {
+                padding: 10px 20px;
+                font-size: 1rem;
+                border: none;
+                border-radius: 8px;
+                background-color: var(--primary-color);
+                color: white;
+            }
+            #GetourService{
+             height: auto;
+             padding: 20px;
+
+            }
+            #acrosstheworld{
+                height: auto;
+                width: 100%;
+            }
+            .acrossbanneronetext h1{
+                font-size: var(--size-h2);
+                width:100%;
+            }
+            .acrossdownload{
+                display: flex;
+            }
+            .acrossbanneronetext p{
+padding: 20px;
+            }
+            #customer-review {
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+                width: 100%;
+            }
+            
+            #customer-review h1 {
+                text-align: center;
+                font-size: 1.6rem;
+                color: var(--text-h1);
+                height: auto;
+            }
+            
+            .review-section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+            
+            .review-section  img {
+                width: 80%;
+                height: auto;
+                border-radius: 10px;
+            }
+            
+            .reviewercomment {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                position: relative;
+                width: 90%;
+            }
+            
+            .reviewcontent {
+                position: relative;
+                width: 100%;
+            }
+            
+            .reviewcontent img.review-box-img {
+                width: 100%;
+                height: 113%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 1;
+                border-radius: 15px;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .reviewcontent p {
+                position: relative;
+                z-index: 2;
+                padding: 30px 20px;
+                line-height: 1.6;
+                font-size:var(--text-body);
+                text-align: center;
+                color: var(--text-h2);
+                width: 90%;
+                align-items: center;
+
+            }
+            
+            .reviewers {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+            }
+            
+            .reviewers img {
+                border-radius: 50%;
+            }
+            
+            .reviewers .one,
+            .reviewers .three {
+                width: 40px;
+                height: 40px;
+            }
+            
+            .reviewers .two {
+                width: 70px;
+                height: 70px;
+            } 
+          #Gettheapp{
+            width: 100%;
+            height: auto;
+            padding: 20px;
+          }
+        }
+        @media (min-width: 769px) and (max-width: 1024px){
+            :root{
+                --primary-color:#98d5ae;
+                --secondary-color:#c4e1c1;
+                --tertiary-color:#98d5ae47;
+                --text-h1: #1e0e62;
+                --text-h2:#4e4b7f;
+                --text-body:#5c5c5c;
+                --size-h1:30px;
+                --size-h2:20px;
+                --size-h3:16px;
+                --size-body:14px;
+                --text-regular:regular;
+                --text-medium:medium;
+                --text-bold:bold;
+                --ffamily-one:"Playfair Display", serif;
+                --ffamily-two:"Lato", sans-serif;
+            }
+            section{
+                width: 100%;
+                height: auto;
+            }
+            .wrapper {
+                width: 100%;
+                height: auto;
+                /* padding: 0 15px; */
+                /* box-sizing: border-box; */
+            }
+            #banner {
+                background: url(/Asset/Images/banner\ 1.jpg);
+                height: 100vh;
+                width: 100%;
+                background-size: cover;
+                background-position: center;
+                padding: 80px;
+            }
+            .banneronetext{
+                display: flex;
+               flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+                gap: 30px;
+                align-items: center;
+            }
+            
+            /* .bannertwo {
+                background: url(../Asset/Images/banner\ 2.jpg);
+                height: 600px;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            } */
+            
+            /* .bannerothree {
+                background: url(../Asset/Images/banner\ 3.jpg);
+                height: 600px;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            } */
+            
+            .banneronetext h1 {
+                color: white;
+                font-size: 2.5rem;
+            }
+            
+            .banneronetext p {
+                color: white;
+                font-size: 1.5rem;
+            }
+            #deserve {
+                padding: 80px;
+              }
+            
+              #deserve h1 {
+                font-size: var(--size-h1);
+              }
+            
+              .deservesection {
+                gap: 50px;
+              }
+            
+              .deserveA,
+              .deserveB {
+                flex-direction: column;
+                gap: 30px;
+                align-items: center;
+              }
+            
+              .deserveone,
+              .deservetwo,
+              .deservethree,
+              .deservefour,
+              .deservefive,
+              .deservesix {
+                width: 100%;
+                max-width: 500px;
+                /* height: auto; */
+                padding: 25px;
+                gap: 25px;
+              }
+            
+              .deserveone h4,
+              .deservetwo h4,
+              .deservethree h4,
+              .deservefour h4,
+              .deservefive h4,
+              .deservesix h4 {
+                font-size: 1.2rem;
+              }
+            
+              .deserveone p,
+              .deservetwo p,
+              .deservethree p,
+              .deservefour p,
+              .deservefive p,
+              .deservesix p {
+                font-size: 1rem;
+              }
+            
+              i {
+                font-size: 26px;
+              }
+              /* risksection start */
+.reduceimg img {
+    width: 700px; 
+    padding: 30px;
+}
+.riskboxsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+}
+#risksection .riskbox{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+}
+#risksection{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+}
+.riskbox{
+    display: flex;
+    width: 488px;
+    height: auto;
+    border: 2px dashed var(--text-h1);
+    border-radius: 10px;
+    padding: 10px;
+}
+.riskboxsection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+}
+.riskboxes{
+    width: 200px;
+    height: 130px;
+background-color: var(--tertiary-color);
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: center;
+border-radius: 10px;
+
+}
+.riskboxes p{
+    color: var(--text-h1);
+    font-size:var(--text-body);  
+}
+.riskbox h3{
+    color: var(--text-h1);
+}
+.riskboxA{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    column-gap: 20px;
+    text-align: center;
+}
+.riskboxB{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    column-gap: 20px;
+    text-align: center;
+}
+/* risksection end */
+/* relaxtherapies start */
+#relaxtherapies{
+    width: 100%;
+    height: auto;
+    padding: 80px;
+    background-image: url(./Asset/Images/relaxtherapiesbackground.jpg);
+}
+.relaxone img{
+    width: 400px;
+    height: 400px;
+}
+.relaxone{
+display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+.relaxonetext{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    align-items: center;
+    width: 80%;
+}
+.relaxtwo img{
+    width: 600px;
+    height: auto;
+}
+.relaxtwo{
+display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.relaxtwotext{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.relaxthree img{
+    width: 600px;
+    height: auto;
+}
+.relaxthree{
+display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.relaxthreetext{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    align-items: center;
+}
+.relaxfour img{
+    width: 600px;
+    height: auto;
+}
+.relaxfour{
+display: flex;
+
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.relaxfourtext{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    align-items: center;
+}
+
+/* relaxend */
+/* safehand */
+
+
+#safehand {
+    background-color:var(--primary-color);
+    width: 100%;
+height: auto;
+padding: 80px;
+}
+.safehandsection  img{
+    width: 400px;
+    height: auto;
+}
+.safehandsection{
+    display: flex;
+    gap: 100px;
+    padding: 70px;
+    justify-content: center;
+}
+.safehandsection h1{
+    text-align: left;
+    color:var(--text-h1);
+}
+.safehandtextbox p{
+    color:var(--text-h1);
+   background-color: rgba(255, 255, 255, 0.432);
+   border-radius: 10px;
+}
+.safehandtext{
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+.safehandtext p{
+    height: auto;
+    padding: 10px;
+    line-height: 25px;
+}
+.safehandboxtext{
+    display: flex;
+flex-direction: column;
+width: 400px;
+gap: 20px;
+}
+/* safehand end */
+/* getsection */
+.contentmain p{
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+.contentmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px   ;
+}
+.getsection{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+}
+.getsection img{
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.getsectiononetext h4{
+    font-size: 1.4rem;
+}
+.getsectiontwotext h4{
+    font-size: 1.4rem;
+}
+.getsectiononetext p{
+font-style: normal;
+}
+.getsectiononetext{
+        width: 200px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+.getsectiontwotext{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+gap: 20px;
+}
+.getsectionone{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.getsectiontwo{
+    display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.getsectionone{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.getsectionthree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 40px; */
+    padding: 30px;
+    gap: 50px;
+}
+.getsectionthree p{
+    width: 25%;
+    text-align: center;
+}
+#GetourService{
+    width: 100%;
+    height: auto;
+    padding: 80px;
+}
+#acrosstheworld{
+    width: 100%;
+    height: auto;
+    padding: 80px;
+}
+/* getsection end */
+/* cusotmer review */
+#customer-review{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    width: 100%;
+    height: auto;
+ }
+ .review-section{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     position: relative;
+ }
+ .review-section img{
+     width: 500px;
+     height: auto;
+ }
+ .reviewcontent{
+    gap: -20px;
+ }
+ .reviewcontent img{
+     width: 700px;
+     height: 300px;
+     position:absolute;
+     z-index:1;
+ }
+ .reviewcontent p{
+ display: flex;
+     align-items: center;
+     align-content: center;
+     justify-content: center;
+     /* padding: 45px; */
+     width: 300px;
+     bottom: 200px;
+     z-index: 2;
+     position: relative;
+     line-height:30px;
+ }
+ 
+ .reviewers img{
+ width: 50px;
+
+ }
+ .reviewercomment{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+ }
+ .reviewers .two{
+     width: 100px;
+ }
+ .reviewcontent .review-box-img {
+     position: relative;
+     width: 400px;
+     height: 350px;
+     z-index: 1;
+     bottom: -200px;
+   }
+
+ /* cusotmer review end */
+ #Gettheapp{
+    width: 100%;
+    height: auto;
+    padding: 80px;
+    align-items: flex-start;
+    justify-content: left;
+ }
+        }
+        @media (min-width: 1025px) and (max-width: 1440px){
+            #banner {
+                background: url(/Asset/Images/banner\ 1.jpg);
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+            }
+            .banneronetext{
+                display: flex;
+               flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+                gap: 30px;
+                align-items: center;
+            }
+            
+            /* .bannertwo {
+                background: url(../Asset/Images/banner\ 2.jpg);
+                height: 600px;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            } */
+            
+            /* .bannerothree {
+                background: url(../Asset/Images/banner\ 3.jpg);
+                height: 600px;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            } */
+            
+            .banneronetext h1 {
+                color: white;
+                font-size: 2.5rem;
+            }
+            
+            .banneronetext p {
+                color: white;
+                font-size: 1.5rem;
+            }
+            /* derseve section start */
+            #deserve{
+            
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            #deserve .deservesection {
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 70px;
+            }
+            #deserve h1{
+                text-align: center;
+                padding-top: 40px;
+                padding-bottom:40px ;
+            }
+            #deserve .deservesection .deserveA {
+                font-family: var(--ffamily-two);
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                gap: 70px;
+            }
+            #deserve .deservesection .deserveB {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                gap: 70px;
+            }
+            
+            i {
+                color: var(--text-h1);
+                font-size: 30px;
+            }
+            
+            .deserveone {
+                width: 400px;
+                height: 180px;
+                background-color: var(--tertiary-color);
+                padding: 30px;
+                border-radius: 10px;
+                text-align: center;
+                align-content: space-around;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                
+            
+            }
+            
+            
+            .deservetwo {
+                width: 400px;
+                height: 180px;
+                background-color: var(--tertiary-color);
+                padding: 30px;
+                border-radius: 10px;
+                text-align: center;
+                align-content: space-around;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+            
+            }
+            
+            .deservethree {
+                width: 400px;
+                height: 180px;
+                background-color: var(--tertiary-color);
+                padding: 30px;
+                border-radius: 10px;
+                text-align: center;
+                align-content: space-around;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+            }
+            
+            .deservefour {
+                width: 400px;
+                height: 180px;
+                background-color: var(--tertiary-color);
+                padding: 30px;
+                border-radius: 10px;
+                text-align: center;
+                align-content: space-around;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+            
+            }
+            
+            .deservefive {
+                width: 400px;
+                height: 180px;
+                background-color: var(--tertiary-color);
+                padding: 30px;
+                border-radius: 10px;
+                text-align: center;
+                align-content: space-around;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+            }
+            
+            .deservesix {
+                width: 400px;
+                height: 180px;
+                background-color: var(--tertiary-color);
+                padding: 30px;
+                border-radius: 10px;
+                text-align: center;
+                align-content: space-around;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+            }
+            
+            
+            
+            /* deserver section end */
+            
+            /* risksection start */
+            .reduceimg img {
+                width: 700px; 
+            }
+            .riskboxsection{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 130px;
+            }
+            #risksection .riskbox{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            }
+            #risksection{
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .riskbox{
+                display: flex;
+                width: 488px;
+                height: auto;
+                border: 2px dashed var(--text-h1);
+                border-radius: 10px;
+                padding: 10px;
+            }
+            .riskboxes{
+                width: 200px;
+                height: 130px;
+            background-color: var(--tertiary-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            border-radius: 10px;
+            padding: 10px;
+            gap: 30px;
+            }
+            .riskboxes p{
+                color: var(--text-h1);
+                font-size: 1rem;  
+            }
+            .riskbox h3{
+                font-size: 1.5rem;
+            }
+            .riskboxA{
+                display: flex;
+                flex-direction: row;
+                padding: 20px;
+                column-gap: 20px;
+                text-align: center;
+            }
+            .riskboxB{
+                display: flex;
+                flex-direction: row;
+                padding: 20px;
+                column-gap: 20px;
+                text-align: center;
+            }
+            /* risksection end */
+            
+            /* relaxtherapies start */
+            #relaxtherapies{
+                width: 100%;
+                height: auto;
+                background-image: url(./Asset/Images/relaxtherapiesbackground.jpg);
+            }
+            .relaxone img{
+                width: 600px;
+                height: auto;
+            }
+            .relaxone{
+            display: flex;
+                gap: 100px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 20px;
+            
+            }
+            .relaxonetext{
+                display: flex;
+                flex-direction: column;
+                padding: 30px;
+                gap: 30px;
+                align-items: center;
+            }
+            .relaxtwo img{
+                width: 600px;
+                height: auto;
+            }
+            .relaxtwo{
+            display: flex;
+                gap: 100px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 20px;
+            }
+            .relaxtwotext{
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                gap: 10px;
+                align-items: center;
+            }
+            .relaxthree img{
+                width: 600px;
+                height: auto;
+            }
+            .relaxthree{
+            display: flex;
+                gap: 100px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 20px;
+            }
+            .relaxthreetext{
+                display: flex;
+                flex-direction: column;
+                padding: 30px;
+                gap: 30px;
+                align-items: center;
+            }
+            .relaxfour img{
+                width: 600px;
+                height: auto;
+            }
+            .relaxfour{
+            display: flex;
+            
+                gap: 100px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 20px;
+            }
+            .relaxfourtext{
+                display: flex;
+                flex-direction: column;
+                padding: 30px;
+                gap: 30px;
+                align-items: center;
+            }
+            /* relaxend */
+            /* safehand */
+            
+            
+            #safehand {
+                background-color:var(--primary-color);
+                width: 100%;
+                height: 500px;
+            }
+            .safehandsection  img{
+                width: 400px;
+                height: auto;
+            }
+            .safehandsection{
+                display: flex;
+                gap: 250px;
+                padding: 40px;
+                justify-content: center;
+            }
+            .safehandsection h1{
+                text-align: left;
+                color:var(--text-h1);
+            }
+            .safehandtextbox p{
+                color:var(--text-h1);
+               background-color: rgba(255, 255, 255, 0.432);
+               width: 50%;
+               height: auto;
+               padding: 10px;
+               border-radius: 10px;
+            }
+            .safehandtext{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            }
+            .safehandtext p{
+                width: 70%;
+                height: auto;
+                padding: 10px;
+                line-height: 25px;
+            }
+            .safehandboxtext{
+                display: flex;
+            flex-direction: column;
+            gap: 20px;
+            }
+            /* safehand end */
+            /* getsection */
+            .contentmain p{
+                width: 50%;
+                height: auto;
+                text-align: center;
+            }
+            .contentmain{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                padding: 10px   ;
+            }
+            .getsection{
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+                align-items: center;
+                gap: 100px;
+            }
+            .getsection img{
+                width: 400px;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+            }
+            .getsectiononetext h4{
+                font-size: 1.4rem;
+            }
+            .getsectiontwotext h4{
+                font-size: 1.4rem;
+            }
+            .getsectiononetext p{
+            font-style: normal;
+            }
+            .getsectiononetext{
+                    width: 200px;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+            }
+            .getsectiontwotext{
+                width: 200px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+            gap: 20px;
+            }
+            .getsectionone{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            }
+            .getsectiontwo{
+                display: flex;
+            flex-direction: column;
+            gap: 30px;
+            }
+            .getsectionone{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .getsectionthree{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /* padding-bottom: 40px; */
+                padding: 30px;
+                gap: 50px;
+            }
+            .getsectionthree p{
+                width: 25%;
+                text-align: center;
+            }
+            /* getsection end */
+            /* acrosstheworld */
+            #acrosstheworld{
+                background-image: url(/Asset/Images/acrossthe\ world.jpg);
+                height: 70vh;
+                width: auto;
+            padding: 30px;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                gap: 40px;
+            }
+            .acrossbanneronetext h1{
+               color: white;
+               padding: 10px;
+               gap: 10px;
+               letter-spacing: 0.2rem;
+            }
+            .acrossbanneronetext p{
+                color: white;
+                padding: 10px;
+               gap: 10px;
+             }
+             .acrossdownload img{
+                width: 100px;
+                gap: 40px;
+                padding: 20px;
+             }
+             .acrossbanneronetext{
+                padding: 30px;
+                gap: 10px;
+             }
+            /* acrosstheworld end */
+            
+            /* cusotmer review */
+            #customer-review{
+               display: flex;
+               flex-direction: column;
+            }
+            .review-section{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 50px;
+            }
+            .review-section img{
+                width: 500px;
+                height: auto;
+            }
+            .reviewcontent img{
+                width: 700px;
+                height: 300px;
+                position:absolute;
+                z-index:1;
+            }
+            .reviewcontent p{
+            display: flex;
+                align-items: center;
+                align-content: center;
+                justify-content: center;
+                padding: 45px;
+                width: 600px;
+                z-index: 2;
+                position: relative;
+                line-height:30px;
+            }
+            
+            .reviewers img{
+            width: 50px;
+            }
+            .reviewercomment{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                gap: 40px;
+            }
+            .reviewers .two{
+                width: 100px;
+            }
+            .review-content .review-box-img {
+                position: relative;
+                width: 40px;
+                height: auto;
+                z-index: 1;
+              }
+            /* cusotmer review end */
+            /* gettheapp */
+            #Gettheapp{
+                background-image: url(/Asset/Images/mockup.jpg);
+                height: 70vh;
+                width: auto;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+            }
+            
+            
+            .form {
+                display: flex;
+                align-items: left;
+                gap: 50px;
+                width: 250px;
+                height: auto;
+                padding: 0px;
+                padding-bottom: 15px;
+            
+            }
+            .form-container {
+                display: flex;
+                align-items: center;
+                background-color: rgba(255, 255, 255, 0.9);
+                border-radius: 8px;
+            padding: 5px;
+            width: 300px;
+            height: 50px;
+              }
+              .flag {
+                display: flex;
+                align-items: center;
+                padding:5px;
+                font-weight: bold;
+                gap: 5px;
+              }
+              .mobile-input {
+                border: none;
+                outline: none;
+                padding: 10px;
+                width: 180px;
+              }
+              .share-button{
+                align-content: center;
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+                width: 150px;
+              }
+            .Gettheappbannertext p{
+                color: white;
+            }
+            .Gettheappbannertext h1{
+                color: white;
+                text-align: left;
+            }
+            .Gettheappbannertext{
+                display: flex;
+                flex-direction: column; 
+            justify-content: space-between;  
+            gap: 20px;
+            }
+            .appdownload img{
+                align-items: left;
+                width:100px;
+                gap: 0px;
+                padding: 0px;
+            }
+            .flag p{
+                color: rgb(0, 0, 0);
+            }
+            /* gettheapp end */
+        }
